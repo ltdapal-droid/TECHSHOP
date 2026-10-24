@@ -322,7 +322,7 @@ input{
         margin-left: 3px;
     }
     .skidka{
-        width: 315px;
+        width: 100%;
         height: 170px;
     }
     .procent{
@@ -413,7 +413,7 @@ input{
         margin-left: 40px;
     }
     .card{
-        width: 360px;
+        width: 100%;
     }
     .pamyt{
         margin-left: 40px;
