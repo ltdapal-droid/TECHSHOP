@@ -292,3 +292,143 @@ input{
 .ml{
     margin-left: 20px;
 }
+.col{
+    color: white;
+}
+.odim{
+    display: flex;
+}
+@media (max-width: 600px){
+    .boss{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-image{
+        margin-top: 18px;
+        margin-right: 30px;
+        width: 100px;
+    }
+    .vse{
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 10px;
+        height: 350px;
+        margin-left: 0px;
+    }
+    .text{
+        margin-left: 3px;
+    }
+    .skidka{
+        width: 315px;
+        height: 170px;
+    }
+    .procent{
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .actia{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    .sk{
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+        width: 200px;
+        margin-left: 0px;
+    }
+    input{
+        margin-left: -318px;
+        margin-top: 110px;
+        width: 170px;
+        height: 30px;
+        border: none;
+    }
+    .podpiska{
+        margin-top: 110px;
+        margin-left: -135px;
+        margin-right: 10px;
+    }
+    .glav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .glav > div {
+        width: calc(50% - 5px);
+        box-sizing: border-box;
+    }
+    .glav > div:last-child {
+        width: 100%;
+    }
+    .color{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .catalog{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .col{
+        margin-top: 150px;
+        font-size: 10px;
+        color: white;
+        margin-left: -100px;
+        margin-right: 20px;
+    }
+    .aaa{
+        width: 20px;
+        height: 20px;
+        gap: 5px;
+        margin-left: 8px;
+    }
+    .bbb{
+        width: 20px;
+        height: 20px;
+        gap: 5px;
+    }
+    .vvv{
+        width: 25px;
+        height: 20px;
+        gap: 5px;
+    }
+    .ml{
+        margin-left: none;
+    }
+    .nov{
+        display: none;
+    }
+    .kartochka{
+        width: 170px;
+        height: 215px;
+        margin-top: -20px;
+    }
+    .Apple{
+        font-size: 14px;
+        width: 190px;
+        margin-left: 40px;
+    }
+    .card{
+        width: 305px;
+    }
+    .pamyt{
+        margin-left: 40px;
+    }
+    .btn-size{
+        margin-top: 10px;
+    }
+    .obem{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .counter{
+        margin-left: -110px;
+        margin-top: 10px;
+    }
+    #buy{
+        width: 280px;
+        margin-left: -110px;
+    }
+}
