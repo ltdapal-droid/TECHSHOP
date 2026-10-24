@@ -1,18 +1,19 @@
 *{
     font-family: Verdana, Geneva,
                  Tahoma, sans-serif;
-    margin: 0;
+    
     padding: 0;
+    box-sizing: border-box;
 }
 .nov{
-    margin-top: 0px;
-    padding: 6px;
+    margin-top: 10px;
+    padding: 10px;
     height: 10px;
-    width: 50px;
+    width: 70px;
     background-color: #792aff;
     color: white;
     border-radius: 9px;
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
 }
 .card{
