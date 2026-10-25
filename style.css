@@ -149,7 +149,7 @@ input{
 }
 .glav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .tel:hover, .nout:hover, .plan:hover, .naush:hover, .akses:hover{
     box-shadow: 1px 1px 30px #782aff8e;
@@ -433,5 +433,151 @@ input{
     #buy{
         width: 280px;
         margin-left: -110px;
+    }
+    #minus{
+        width: 20px;
+        height: 20px;
+    }
+    #plus{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    hr {
+       display: none;
+    }
+    .vse{
+        width: 100%;
+    }
+    .nov{
+        display: none;
+    }
+    .skidka{
+        width: 100%;
+    }
+    .card{
+       width: 400px;
+    }
+    .kartochka{
+        width: 170px;
+    }
+    .odam{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .pamyt{
+        margin-top: 40px;
+    }
+    .counter{
+        margin-left: -170px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .price-block{
+        margin-left: -150px;
+        margin-right: 130px;
+    }
+    #minus{
+        width: 20px;
+        height: 20px;
+    }
+    #plus{
+        width: 20px;
+        height: 20px;
+    }
+    .fff{
+        font-size: 12px;
+        margin-left: -20px;
+        font-weight: 700;
+    }
+    .ggg{
+        font-size: 9px;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    .sk{
+        font-size: 15px;
+        width: 200px;
+        margin-left: -30px;
+        margin-top: 15px;
+    }
+    .skid{
+        margin-left: -30px;
+        margin-top: -5px;
+    }
+    input{
+        margin-left: 10px;
+        margin-top: 14px;
+        width: 200px;
+        margin-right: 30px;
+    }
+    .podpiska{
+        margin-left: -120px;
+        margin-top: 55px;
+        width: 200px;
+        margin-right: 30px;
+    }
+    .glav{
+        display: flex;
+        justify-content: space-around;
+        margin-left: none;
+        margin-right: none;
+    }
+    .tel{
+        width: 190px;
+        height: 140px;
+    }
+    .e{
+        font-size: 11px;
+    }
+    .l{
+        margin-top: -5px;
+    }
+    .nout{
+        width: 190px;
+        height: 140px;
+    }
+    .o{
+        font-size: 11px;
+    }
+    .plan{
+        width: 190px;
+        height: 140px;
+    }
+    .a{
+        font-size: 11px;
+    }
+    .d{
+        font-size: 9px;
+    }
+    .naush{
+         width: 190px;
+        height: 140px;
+    }
+    .h{
+        font-size: 11px;
+    }
+    .akses{
+        width: 190px;
+        height: 140px;
+    }
+    .j{
+        font-size: 11px;
+    }
+    .q{
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    .tech{
+        font-size: 11px;
+    }
+    .clll{
+        font-size: 20px;
+    }
+    .catalog{
+        font-size: 11px;
     }
 }
